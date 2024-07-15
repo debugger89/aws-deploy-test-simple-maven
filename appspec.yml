@@ -1,9 +1,6 @@
 version: 0.0
 os: windows
-files:
-  - source: web/index.html
-    destination: /var/www/html
 hooks:
   ApplicationStart:
-    - location: build.bat
+    - location: \build.bat
       timeout: 400
