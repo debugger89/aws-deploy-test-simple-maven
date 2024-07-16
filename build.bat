@@ -1,3 +1,8 @@
+echo $tags
+echo $DeployVariables.tags
+echo "$tags"
+echo %$tags%
+echo %$DeployVariables.tags%
 echo %tags%
 echo "#{DeployVariables.tags}"
 echo %DeployVariables%
