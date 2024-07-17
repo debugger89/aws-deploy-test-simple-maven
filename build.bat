@@ -1,3 +1,5 @@
+echo %$DEPLOYMENT_GROUP_NAME%
+echo %DEPLOYMENT_GROUP_NAME%
 echo $tags
 echo $DeployVariables.tags
 echo "$tags"
